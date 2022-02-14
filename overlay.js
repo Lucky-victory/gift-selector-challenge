@@ -13,7 +13,7 @@ export default function Overlay({food,transport,totalCost,hasBalloon}){
       <h2>Your Order</h2>
       <p><b>Food:</b> {food.name}</p>
       <p><b>Delivery:</b> {transport.type}</p>
-              <p className="result" id="result">Total gift cost: <span id="cost-el">{totalCost || '...'}</span></p>
+              <p className="result" id="result">Total gift cost: <span id="cost-el">${totalCost || '...'}</span></p>
               
               <span className='faded-text'>click to close</span>
       </div>
